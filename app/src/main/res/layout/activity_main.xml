@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trackit Location Data"
+        android:textSize="24sp"
+        android:textColor="@color/water_blue"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/latitudeTextView"
+        android:text="Latitude:"
+        android:textColor="@color/water_blue"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/longitudeTextView"
+        android:text="Longitude:"
+        android:textColor="@color/water_blue"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/altitudeTextView"
+        android:text="Altitude:"
+        android:textColor="@color/water_blue"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/getLocationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Location"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/water_blue"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/openInMapsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open With"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/water_blue"
+        android:textColor="@color/white" />
+</LinearLayout>

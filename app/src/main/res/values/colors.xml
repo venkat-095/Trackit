@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default colors already present in your colors.xml -->
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <!-- Add the water blue color -->
+    <color name="water_blue">#2196F3</color>
+    <color name="white">#FFFFFF</color> <!-- White for text and buttons -->
+
+    <!-- Other colors for the water theme if needed -->
+    <color name="background_light_blue">#E3F2FD</color>
+</resources>
